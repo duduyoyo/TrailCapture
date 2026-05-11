@@ -161,9 +161,10 @@ Otherwise, the first account will be used by default.
 Example configuration:
 
 ```xml id="u2"
-<?xml version="1.0" encoding="utf-8"?>
 <Config>
-    <AccountIndex>0</AccountIndex>
+	<AccountIndex>
+		<Value>0</Value>
+	</AccountIndex>
 </Config>
 ```
 
